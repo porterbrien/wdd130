@@ -16,13 +16,13 @@ Fonts are separated by a & */
   --paragraph-font: "Bebas Neue", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
+  --headline-color-on-white: #416165;  /* headlines on a white background */ 
+  --headline-color-on-color: rgb(0, 0, 0); /* headlines on a colored background */ 
+  --paragraph-color-on-white: #f3b391; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: rgb(0, 0, 0); /* paragraph text on a colored background */ 
+  --paragraph-background-color: #f3b391  ;
   --nav-link-color: #085287;
-  --nav-background-color: #eb873f;
+  --nav-background-color: #b6c649;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
