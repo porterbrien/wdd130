@@ -1,6 +1,12 @@
-#img1 {
-    margin: 0 auto;
+body {
+    background-color: grey;
 }
-#icon1 {
-
+#img1 {
+    width: 100%;
+}
+.icons {
+    width: 120px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 10px solid rgb(43, 42, 42);
 }
