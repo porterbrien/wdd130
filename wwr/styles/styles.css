@@ -234,3 +234,17 @@ main section img {
         margin-top: 25px;
     }
 }
+/* This is for the second page */
+.three {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr 2fr;
+    width: 100%;
+    height: 100%;
+}
+.box1 {
+    border: #bb4430;
+    border-radius: 6px;
+    grid-column: 1/8;
+    grid-row: 3/3;
+}
