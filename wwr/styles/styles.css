@@ -243,8 +243,9 @@ main section img {
     height: 100%;
 }
 .box1 {
-    border: #bb4430;
-    border-radius: 6px;
-    grid-column: 1/8;
-    grid-row: 3/3;
+    grid-column: 1/8fr;
+    grid-row: 3/3fr;
+    border-width:3px;
+    border-style:solid;
+    border-color:#287EC7;
 }
