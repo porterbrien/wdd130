@@ -1,0 +1,9 @@
+#content {
+    background-color: #cfd7c7;
+}
+.header {
+    border: 10px, solid, black;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr
+}
