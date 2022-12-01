@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(94, 154, 174);
+}
+header{ 
+    background-color: #cfd7c7;
+    width: 100%;
+    height: 6.06em;
+    justify-content: center;
+}
+.navgrid {
+    border-width: 8px;
+    height: 15%;
+    float: left;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    float: center;
+    padding: 43px;
+    padding-top: 15px;
+    max-height: fit-content;
+    border: 10px solid #0B2027;
+    
+}
+.logo{
+    width: 6.05em;
+    height: auto;
+    justify-content: center;
+}
+.p1 {
+    background-color: #cfd7c7;
+    margin-top: 45px;
+    line-height: 2 ;
+    text-align: center;
+    color: #0B2027;
+    border: 6px solid black;
+    font-family: 'Lato', sans-serif;
+}
+.gridbox{
+    display: flex;
+}
+#txtbox1 {
+    border: 6px solid black;
+    text-align: center;
+    margin-top: 45px;
+    color: #0B2027;
+    float: left;
+    margin-left: 70px;
+    font-family: 'Lato', sans-serif;
+}
+#txtbox2 {
+    border: 6px solid black;
+    text-align: center;
+    margin-top: 45px;
+    color: #0B2027;
+    float: right;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: 'Lato', sans-serif;
+}
+footer {
+    background-color: #cfd7c7;
+    color: black;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    padding: 25px 50px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 10px solid black;
+}
+.amazonforest {
+    width: 20em;
+    margin: 45px;
+    margin-left: 190px;
+}
+.northpole {
+    width: 20em;
+    margin: 45px;
+    margin-left: 190px;
+    border-radius: 35px;
+}
