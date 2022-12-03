@@ -4,9 +4,12 @@
     margin: auto;
     text-align: center;
   }
+  div {
+    background-color: #acd7ec;
+  }
   
   .title {
-    color: grey;
+    color: #6c6ea0;
     font-size: 18px;
   }
   
