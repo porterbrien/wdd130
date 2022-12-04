@@ -160,3 +160,18 @@ footer {
     width: 100%;
     height: 75%;
 }
+.conclusion {
+    display: flex;
+    border: 10px solid black;
+    justify-content: center;
+    margin: 10px;
+    padding: 8px;
+    text-align: center;
+}
+#h1heading {
+    display: flex;
+    float: left;
+    text-align: center;
+    margin: 20px
+    
+}
