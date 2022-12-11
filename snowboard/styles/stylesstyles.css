@@ -174,3 +174,67 @@ footer {
     height: 75%;
 }
 /* Css for page 3 */
+.para1 {
+    background-color: #cfd7c7 ;
+    font-size: larger;
+    text-align: center;
+    border: 10px solid black;
+    height: auto;
+    margin: 15px;
+    padding: 20px;
+}
+.maingrid {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: 2;
+    width: 1100px;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    margin-top: 30px;
+}
+.txtandimg1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+.txtandimg2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+.txtofimg1 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.txtofimg2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+.para2 {
+    font-size: large;
+    word-wrap: auto;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.para3 {
+    font-size: large;
+    flex-wrap: wrap;
+    word-wrap: auto;
+    overflow-wrap: break-word;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.imgg1 {
+    width: 20em;
+    height: auto;
+    margin-left: 80px;
+}
+.imgg2 {
+    width: 20em;
+    height: auto;
+    margin-left: 80px;
+}
