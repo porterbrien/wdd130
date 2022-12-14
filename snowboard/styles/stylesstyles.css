@@ -51,6 +51,7 @@ a:visited {
     display: flex;
 }
 #txtbox1 {
+    background-color: #cfd7c7;
     border: 6px solid black;
     text-align: center;
     margin-top: 45px;
@@ -60,6 +61,7 @@ a:visited {
     font-family: 'Lato', sans-serif;
 }
 #txtbox2 {
+    background-color: #cfd7c7;
     border: 6px solid black;
     text-align: center;
     margin-top: 45px;
@@ -85,13 +87,16 @@ footer {
 }
 .amazonforest {
     width: 20em;
+    height: 12em;
     margin: 45px;
-    margin-left: 230px;
+    margin-left: 210px;
+    border-radius: 35px;
 }
 .northpole {
     width: 20em;
+    height: 12em;
     margin: 45px;
-    margin-left: 230px;
+    margin-left: 210px;
     border-radius: 35px;
 }
 /* Page two css */
@@ -113,6 +118,7 @@ footer {
     border: 10px solid black;
     text-align: center;
     font: "Inconsolata";
+    padding: 10px;
 }
 .tempbox2 {
     grid-column: 2;
@@ -122,6 +128,7 @@ footer {
     border: 10px solid black;
     text-align: center;
     font: "Inconsolata";
+    padding: 10px;
 }
 .tempbox3 {
     grid-column: 1;
@@ -131,6 +138,7 @@ footer {
     border: 10px solid black;
     text-align: center;
     font: "Inconsolata";
+    padding: 10px;
 }
 .tempbox4{
     grid-column: 2;
@@ -140,6 +148,7 @@ footer {
     border: 10px solid black;
     text-align: center;
     font: "Inconsolata";
+    padding: 10px;
 }
 .img1 {
     grid-column: 1;
