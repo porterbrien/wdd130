@@ -1,13 +1,23 @@
 
-
+.lilita-one-regular{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
 *{
     background-color: #8b77ee;
     margin: 0;
     padding: 0;
-}
-#home{
+
     
-    font-size: larger;
+}
+h1{
+    font-size: 55px;
+    /* border: .8px groove #0c0c0c; */
+    /* background-color: #412da2;
+    border-radius: 25px;
+    padding: 20px; */
 }
 nav{
     display: flex;
