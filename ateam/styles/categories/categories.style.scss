@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+$cyan: hsl(178, 100%, 50%);
+$very-dark-blue-main: hsl(217, 54%, 11%);
+$very-dark-blue-card: hsl(216, 50%, 16%);
+$very-dark-blue-line: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
+
+
+body {
+    background-color: $very-dark-blue-main;
+    color: $white;
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+}
+
+// NAV BAR
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    padding: 2rem;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 1.5rem;
+    color: $cyan;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    transition: transform .2s;
+  }
+  
+
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover {
+    background-color: $cyan;
+    color: black;
+    transform: scale(1.2);
+  }
+  
+  .active {
+    background-color: $very-dark-blue-card;
+  }
+
+
+h1 {
+    text-align: center;
+    color: $cyan;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+#form__categories {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    .cat-selection {
+        margin: 0 auto;
+        padding: 0.4rem;
+        display: flex;
+        background-color: $very-dark-blue-card;
+        font-size: 1.5rem;
+        border-radius: 0.3rem;
+    }
+    .cat-selection:hover {
+        background-color: $cyan;
+        input {
+            cursor: pointer;
+        }
+        label {
+            cursor: pointer;
+        }
+    }
+
+}
+
+#activities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.activity-card{
+    background-color: $very-dark-blue-card;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 2px black;
+    transition: transform 0.2s;
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 200px;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    .activity-card__info {
+        padding: 0.5rem;
+        h2 {
+            margin: 0;
+            a {
+                font-size: 2rem;
+                color: $cyan;
+                text-decoration: none;
+            }
+        }
+        .activity-card__info__category {
+            .pricetag {
+                white-space: nowrap;
+                position: relative;
+                margin: 0 5px 0 10px;
+                display: inline-block;
+                height: 25px;
+                border-radius: 20px 5px 5px 20px;
+                padding: 0  10px 0 0px;
+                background: #e8edf0;
+                border: 1px solid #c7d2d4;
+                color: $very-dark-blue-main;
+                line-height: 23px;
+                font-size: 0.8rem;
+              }
+              .pricetag:before {
+                background: attr(style);
+                content: "\25CF";
+                color: $very-dark-blue-card;
+                padding-right: 10px;
+                padding-left: 5px;
+              }
+        }
+        p {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.activity-card:hover {
+    box-shadow: 0px 0px 10px 2px $cyan;
+    transform: scale(1.1);
+}
+
+// Footer
+.footer {
+    left: 10px;
+    bottom: 5px;
+    right: 10px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px){   
+    h1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 3rem;
+    }
+    #categories-form {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    #form__categories {
+        display: block;
+        padding: 1rem;
+    }
+
+    #activities {
+        display: block;
+        margin: 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .activity-card {
+        margin-bottom: 2rem;
+    }
+}
