@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+$cyan: hsl(178, 100%, 50%);
+$very-dark-blue-main: hsl(217, 54%, 11%);
+$very-dark-blue-card: hsl(216, 50%, 16%);
+$very-dark-blue-line: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
+
+
+body {
+    background-color: $very-dark-blue-main;
+    color: $white;
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+}
+
+// NAV BAR
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    padding: 2rem;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 1.5rem;
+    color: $cyan;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    transition: transform .2s;
+  }
+  
+
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover {
+    background-color: $cyan;
+    color: black;
+    transform: scale(1.2);
+  }
+  
+  .active {
+    background-color: $very-dark-blue-card;
+  }
+
+
+// Footer
+.footer {
+    left: 10px;
+    bottom: 5px;
+    right: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}

@@ -4,68 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./js/main.js" type="module"></script>
-    <link rel="stylesheet" href="./styles/styles.css" />
-    <title>Choose your category</title>
+    <link rel="stylesheet" href="./styles/categories/categories.style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./pics/logo.png" />
+    <title>Category Page</title>
   </head>
   <body>
     <!-- NAV BAR -->
     <div class="navbar">
-      <a href="index.html"><img src="pics/logo.png" width="100px" alt="logo" /></a>
+      <a href="index.html"
+        ><img src="pics/logo.png" width="100px" alt="logo"
+      /></a>
       <div class="nav-right">
-        <a href="categories.html">Choose your own category</a>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Categories
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Category 1</a>
-            <a href="#">Category 2</a>
-            <a href="#">Category 3</a>
-            <a href="#">Category 4</a>
-            <a href="#">Category 5</a>
-            <a href="#">Category 6</a>
-          </div>
-        </div>
-        <a href="#">About</a>
+        <a class="active" href="categories.html">Find Something To Do</a>
+        <a href="aboutus.html">About</a>
       </div>
     </div>
 
     <main>
-      <form>
-        <h1>Categories</h1>
+      <h1>Categories</h1>
+      <form action="#" id="categories-form">
         <!-- id=form__categories to populate in JS -->
         <div id="form__categories">
           <!-- Change the name and value from javascript -->
-          <input type="checkbox" name="Teams of 2" value="Teams of 2" />
+          <!-- <input type="checkbox" name="Teams of 2" value="Teams of 2" />
           <label for="Teams of 2">Teams of 2</label>
           <input type="checkbox" name="Teams of 4" value="Teams of 4" />
           <label for="Teams of 4">Teams of 4</label>
           <input type="checkbox" name="Teams of 8" value="Teams of 8" />
-          <label for="Teams of 8">Teams of 8</label>
-
-          <button>Submit</button>
+          <label for="Teams of 8">Teams of 8</label> -->
         </div>
       </form>
 
       <!-- id=activities to populate for javascript -->
-      <div id="activities">
-        <div class="activity-card">
-          <img src="https://via.placeholder.com/50x50" />
-          <div class="activity-card__info">
-            <h1>Activity Title</h1>
-            <div class="activity-card__info__category">
-              <span class="pricetag">Teams of 2</span>
-            </div>
-            <p>Description</p>
-          </div>
-        </div>
-      </div>
+      <div id="activities"></div>
     </main>
 
     <footer>
-      <div class="footer">@Copyright A+eam 2022- All Right Reserved.</div>
+      <div class="footer">@Copyright A-Team 2022- All Right Reserved.</div>
     </footer>
     <script src="js/json-handler.js" type="module"></script>
   </body>

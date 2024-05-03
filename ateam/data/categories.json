@@ -1,14 +1,27 @@
 [
     {
-        "id": 1,
-        "name": "Teams of 2",
+        "name": "Large Groups",
         "description": "This is the description",
-        "color": "#FFF8DE"
+        "color": "#A9E5BB"
     },
     {
-        "id": 2,
+        "name": "Physical",
+        "description": "This is the description",
+        "color": "#FCF6B1"
+    },
+    {
+        "name": "Teams of 2",
+        "description": "This is the description",
+        "color": "#96CDFF"
+    },
+    {
         "name": "Teams of 4",
         "description": "This is the description",
-        "color": "#0f0"
+        "color": "#519E8A"
+    },
+    {
+        "name": "Whole Class",
+        "description": "This is the description",
+        "color": "#B2A3B5"
     }
 ]
