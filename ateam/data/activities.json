@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Activity Name",
+        "description": "This is the description",
+        "categories": [1,5,7],
+        "icon": "local image reference"
+    },
+    {
+        "id": 2,
+        "name": "Activity Name",
+        "description": "This is the description",
+        "categories": [2,5],
+        "icon": "local image reference"
+    }
+]
