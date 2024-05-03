@@ -8,14 +8,14 @@
     },
     {
         "name": "Blind Artist",
-        "description": "descriptionadfasfaf",
+        "description": "This is the description",
         "categories": ["Whole Class", "Physical", "Teams of 2"],
         "icon": "./pics/MicrosoftTeams-image.png",
         "file": "pptx file path"
     },
     {
         "name": "Group Map",
-        "description": "Where you at???",
+        "description": "This is the description",
         "categories": ["Whole Class", "Physical"],
         "icon": "./pics/MicrosoftTeams-image.png",
         "file": "pptx file path"
@@ -29,7 +29,7 @@
     },
     {
         "name": "Scavenger Hunt",
-        "description": "Where you at???",
+        "description": "This is the description",
         "categories": ["Teams of 2", "Physical"],
         "icon": "./pics/MicrosoftTeams-image.png",
         "file": "pptx file path"
@@ -50,14 +50,14 @@
     },
     {
         "name": "Telepathy",
-        "description": "the descccccc",
+        "description": "This is the description",
         "categories": ["Teams of 2"],
         "icon": "./pics/MicrosoftTeams-image.png",
         "file": "pptx file path"
     },
     {
         "name": "Two truths and a lie",
-        "description": "the descccccc",
+        "description": "This is the description",
         "categories": ["Teams of 2"],
         "icon": "./pics/MicrosoftTeams-image.png",
         "file": "pptx file path"
