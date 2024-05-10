@@ -57,10 +57,6 @@ nav{
     padding: 8px; 
     overflow: hidden;
 }
-header{
-
-    /* width: 100%;  */
-}
 header a{
     float: left;
     color: black;
